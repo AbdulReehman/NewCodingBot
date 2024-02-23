@@ -1,0 +1,75 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  font-family: sans-serif;
+}
+.formSection {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formSection .container {
+  width: 50%;
+}
+.formSection .container form {
+  display: flex;
+  flex-direction: column;
+}
+.formSection .container form label {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0 5px 0;
+}
+.formSection .container form input {
+  height: 45px;
+  border: none;
+}
+.formSection .container form a {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 30px 0 0 0;
+  color: royalblue;
+  text-decoration: none;
+}
+.formSection .container form button {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #1fd47d;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.formSection .container h2 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.infoSection {
+  width: 40%;
+  background-color: blue;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.infoSection .infoText {
+  text-align: center;
+  line-height: 30px;
+  margin-top: 15%;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+.infoSection .InfoImage {
+  height: 330px;
+}
+.infoSection .InfoImage img {
+  height: 100%;
+}

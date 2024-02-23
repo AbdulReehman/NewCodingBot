@@ -1,0 +1,108 @@
+.container {
+  padding: 10px 30px;
+  width: 100%;
+}
+.container h1 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ordermanager-section {
+  background-color: white;
+  margin-top: 30px;
+  padding: 10px 30px;
+}
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-box h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.flex-box .arrow-icon {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.subbmission {
+  display: flex;
+  padding-top: 40px;
+  gap: 20px;
+  position: relative;
+  transition: 1s ease all;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.subbmission.closed {
+  height: 10px;
+  opacity: 0;
+}
+.subbmission.closed .arrow-icon {
+  transform: rotate(180deg);
+}
+
+.input-wrapper {
+  width: 650px;
+  height: 50px;
+  border: 1px solid #d0d5dd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.input-wrapper input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 28px 10px 10px;
+}
+.input-wrapper :nth-child(2) {
+  position: absolute;
+  right: 3px;
+  color: #d0d5dd;
+}
+
+.subbmission :nth-child(3) {
+  width: 100px;
+  height: 50px;
+  background-color: #1fd47d;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 10px;
+}
+.subbmission :nth-child(3):hover {
+  color: #1fd47d;
+  border: 2px solid #1fd47d;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 600;
+}
+.subbmission :nth-child(4) {
+  width: 85px;
+  height: 50px;
+  background-color: #eef0f6;
+  border-radius: 10px;
+  color: #777;
+  border: none;
+  font-size: 18px;
+}
+.subbmission :nth-child(4):hover {
+  background-color: transparent;
+  border: 3px solid #eef0f6;
+  color: #777;
+  font-weight: 600;
+  cursor: pointer;
+}
+.table-wrapper h1 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
